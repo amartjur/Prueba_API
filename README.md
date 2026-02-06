@@ -42,8 +42,10 @@ El saludo cambiará automáticamente según la hora en que ejecutes el script.
 
 ```
 Prueba_API/
+├── .gitignore      # Archivos y directorios ignorados por git
 ├── README.md       # Documentación del proyecto
 ├── main.py         # Script principal con la lógica de saludo
+├── test_main.py    # Suite de pruebas para verificar funcionalidad
 └── __init__.py     # Archivo de inicialización
 ```
 

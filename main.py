@@ -16,8 +16,9 @@ def obtener_saludo():
     Returns:
         str: El saludo apropiado ("Buenos días", "Buenas tardes", o "Buenas noches")
     """
-    hora_actual = datetime.now().hour
-    minuto_actual = datetime.now().minute
+    ahora = datetime.now()
+    hora_actual = ahora.hour
+    minuto_actual = ahora.minute
     
     # Convertir a minutos totales desde medianoche para mejor comparación
     minutos_totales = hora_actual * 60 + minuto_actual
